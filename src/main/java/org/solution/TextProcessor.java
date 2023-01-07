@@ -9,7 +9,6 @@ public class TextProcessor {
 
     public static String transform(String input) {
         // handle edge cases (null, empty, etc)
-
         StringBuilder builder = new StringBuilder();
 
         for (int i=0; i < input.length(); i++) {
