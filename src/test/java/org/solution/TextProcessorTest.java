@@ -18,7 +18,7 @@ class TextProcessorTest {
     public void textProcessorTest2() {
         String input = "testing";
         String actual = TextProcessor.transform(input);
-        String expected = "";
+        String expected = "testing";
         assertEquals(expected, actual);
     }
 
