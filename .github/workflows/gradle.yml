@@ -10,7 +10,7 @@ jobs:
         distribution: temurin
         java-version: 11
 
-    - name: Setup Gradle
+    - name: Setup and Build Gradle
       uses: gradle/gradle-build-action@v2
       with:
         arguments: build
